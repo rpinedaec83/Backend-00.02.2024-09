@@ -1,0 +1,128 @@
+[{
+  "_id": {
+    "$oid": "674ba320e4f213a8f65c9cce"
+  },
+  "NomInsumo": "Chapa natural",
+  "Categoria": "Insumo",
+  "CantStock": "50",
+  "PrecUnitario": "15.00",
+  "UltFecIng": "2024-11-20",
+  "UnidMed": "m²",
+  "Provedores": [
+    {
+      "IdProve": "674bb7bfe4f213a8f65c9ce1"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674ba320e4f213a8f65c9ccf"
+  },
+  "NomInsumo": "Láminas de PVC",
+  "Categoria": "Insumo",
+  "CantStock": "100",
+  "PrecUnitario": "10.00",
+  "UltFecIng": "2024-11-20",
+  "UnidMed": "m²",
+  "Provedores": [
+    {
+      "IdProve": "674bb89fe4f213a8f65c9ce8"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674ba320e4f213a8f65c9cd0"
+  },
+  "NomInsumo": "Melamina",
+  "Categoria": "Insumo",
+  "CantStock": "200",
+  "PrecUnitario": "20.00",
+  "UltFecIng": "2024-11-20",
+  "UnidMed": "m²",
+  "Provedores": [
+    {
+      "IdProve": "674bb89fe4f213a8f65c9ceb"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674ba320e4f213a8f65c9cd1"
+  },
+  "NomInsumo": "Pintura",
+  "Categoria": "Insumo",
+  "CantStock": "80",
+  "PrecUnitario": "5.00",
+  "UltFecIng": "2024-11-20",
+  "UnidMed": "litro",
+  "Provedores": [
+    {
+      "IdProve": "674bb89fe4f213a8f65c9ce9"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674ba320e4f213a8f65c9cd2"
+  },
+  "NomInsumo": "Brocas y tornillos",
+  "Categoria": "Insumo",
+  "CantStock": "300",
+  "PrecUnitario": "0.50",
+  "UltFecIng": "2024-11-20",
+  "UnidMed": "unidad",
+  "Provedores": [
+    {
+      "IdProve": "674bb89fe4f213a8f65c9ce7"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674ba320e4f213a8f65c9cd3"
+  },
+  "NomInsumo": "Madera maciza",
+  "Categoria": "Materia prima",
+  "CantStock": "120",
+  "PrecUnitario": "50.00",
+  "UltFecIng": "2024-11-20",
+  "UnidMed": "m³",
+  "Provedores": [
+    {
+      "IdProve": "674bb89fe4f213a8f65c9cec"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674ba320e4f213a8f65c9cd4"
+  },
+  "NomInsumo": "Aglomerado (MDF)",
+  "Categoria": "Materia prima",
+  "CantStock": "150",
+  "PrecUnitario": "30.00",
+  "UltFecIng": "2024-11-20",
+  "UnidMed": "m²",
+  "Provedores": [
+    {
+      "IdProve": "674bb89fe4f213a8f65c9cec"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674ba5a6e4f213a8f65c9cd5"
+  },
+  "NomInsumo": "Acero",
+  "Categoria": "Materia prima",
+  "CantStock": "320",
+  "PrecUnitario": "220.00",
+  "UltFecIng": "2024-11-16",
+  "UnidMed": "Planchas",
+  "Provedores": [
+    {
+      "IdProve": "674bb89fe4f213a8f65c9ce7"
+    }
+  ]
+}]

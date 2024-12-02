@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "674bb89fe4f213a8f65c9ce7"
+  },
+  "nombre": "Aceros Arequipa SAC",
+  "tipo_documento": "RUC",
+  "numero_documento": "20153624578",
+  "contacto": {
+    "nombre_contacto": "Juan Torrez Lopez",
+    "telefono": "967852147",
+    "email": "juan.torrez@acerosarequipa.com",
+    "direccion": "Av. Industrial 123, Lima, Perú"
+  },
+  "estado": "Activo"
+},
+{
+  "_id": {
+    "$oid": "674bb89fe4f213a8f65c9ce8"
+  },
+  "nombre": "Plásticos del Sur SAC",
+  "tipo_documento": "RUC",
+  "numero_documento": "20153624579",
+  "contacto": {
+    "nombre_contacto": "Ana María Rojas",
+    "telefono": "987654321",
+    "email": "ana.rojas@plasticosdelsur.com",
+    "direccion": "Calle Falsa 456, Lima, Perú"
+  },
+  "estado": "Activo"
+},
+{
+  "_id": {
+    "$oid": "674bb89fe4f213a8f65c9ce9"
+  },
+  "nombre": "Químicos Industriales SAC",
+  "tipo_documento": "RUC",
+  "numero_documento": "20153624580",
+  "contacto": {
+    "nombre_contacto": "Carlos Mendoza",
+    "telefono": "923456789",
+    "email": "carlos.mendoza@quimicosindustriales.com",
+    "direccion": "Av. Química 789, Lima, Perú"
+  },
+  "estado": "Activo"
+},
+{
+  "_id": {
+    "$oid": "674bb89fe4f213a8f65c9cea"
+  },
+  "nombre": "Metales del Norte SAC",
+  "tipo_documento": "RUC",
+  "numero_documento": "20153624581",
+  "contacto": {
+    "nombre_contacto": "Lucía Fernández",
+    "telefono": "934567890",
+    "email": "lucia.fernandez@metalesdelnorte.com",
+    "direccion": "Jr. Los Metales 123, Lima, Perú"
+  },
+  "estado": "Activo"
+},
+{
+  "_id": {
+    "$oid": "674bb89fe4f213a8f65c9ceb"
+  },
+  "nombre": "Maderera Selva Negra SAC",
+  "tipo_documento": "RUC",
+  "numero_documento": "20153624582",
+  "contacto": {
+    "nombre_contacto": "Miguel Torres",
+    "telefono": "945678901",
+    "email": "miguel.torres@textilesandinos.com",
+    "direccion": "Av. Textil 456, Lima, Perú"
+  },
+  "estado": "Activo"
+},
+{
+  "_id": {
+    "$oid": "674bb89fe4f213a8f65c9cec"
+  },
+  "nombre": "Internacional Rojas Maderas EIRL",
+  "tipo_documento": "RUC",
+  "numero_documento": "20153624583",
+  "contacto": {
+    "nombre_contacto": "Pedro Ramírez",
+    "telefono": "956789012",
+    "email": "pedro.ramirez@electronicadelpacifico.com",
+    "direccion": "Jr. Electrónica 789, Lima, Perú"
+  },
+  "estado": "Activo"
+}]

@@ -1,0 +1,93 @@
+[{
+  "_id": {
+    "$oid": "674d2ef54352dc7d957c44e8"
+  },
+  "FechaProduccion": {
+    "$date": "2024-12-02T03:52:21.385Z"
+  },
+  "TipoArmario": "Armario de Madera",
+  "Materiales": [
+    {
+      "IdMaterial": {
+        "$oid": "674ba320e4f213a8f65c9cce"
+      },
+      "Cantidad": {
+        "$numberDecimal": "10.5"
+      }
+    },
+    {
+      "IdMaterial": {
+        "$oid": "674ba320e4f213a8f65c9ccf"
+      },
+      "Cantidad": {
+        "$numberDecimal": "5.0"
+      }
+    }
+  ],
+  "CantidadProducida": 20,
+  "Responsable": {
+    "$oid": "674ba8f5e4f213a8f65c9cd6"
+  }
+},
+{
+  "_id": {
+    "$oid": "674d2ef54352dc7d957c44e9"
+  },
+  "FechaProduccion": {
+    "$date": "2024-12-02T03:52:21.385Z"
+  },
+  "TipoArmario": "Armario de Metal",
+  "Materiales": [
+    {
+      "IdMaterial": {
+        "$oid": "674ba320e4f213a8f65c9cd0"
+      },
+      "Cantidad": {
+        "$numberDecimal": "15.0"
+      }
+    },
+    {
+      "IdMaterial": {
+        "$oid": "674ba320e4f213a8f65c9cd1"
+      },
+      "Cantidad": {
+        "$numberDecimal": "7.5"
+      }
+    }
+  ],
+  "CantidadProducida": 30,
+  "Responsable": {
+    "$oid": "674ba8f5e4f213a8f65c9cd8"
+  }
+},
+{
+  "_id": {
+    "$oid": "674d2ef54352dc7d957c44ea"
+  },
+  "FechaProduccion": {
+    "$date": "2024-12-02T03:52:21.385Z"
+  },
+  "TipoArmario": "Armario de Plástico",
+  "Materiales": [
+    {
+      "IdMaterial": {
+        "$oid": "674ba320e4f213a8f65c9cd2"
+      },
+      "Cantidad": {
+        "$numberDecimal": "20.0"
+      }
+    },
+    {
+      "IdMaterial": {
+        "$oid": "674ba320e4f213a8f65c9cd3"
+      },
+      "Cantidad": {
+        "$numberDecimal": "10.0"
+      }
+    }
+  ],
+  "CantidadProducida": 25,
+  "Responsable": {
+    "$oid": "674ba8f5e4f213a8f65c9cdb"
+  }
+}]
