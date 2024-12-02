@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "674d31b5db7f5b817bc581a1"
+  },
+  "name": "Juan",
+  "lastname": "Pérez",
+  "dni": 12345678,
+  "hours_worked": 40,
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "674d31b5db7f5b817bc581a2"
+  },
+  "name": "María",
+  "lastname": "Gómez",
+  "dni": 87654321,
+  "hours_worked": 35,
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "674d31b5db7f5b817bc581a3"
+  },
+  "name": "Carlos",
+  "lastname": "Ramírez",
+  "dni": 45678912,
+  "hours_worked": 20,
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "674d31b5db7f5b817bc581a4"
+  },
+  "name": "Ana",
+  "lastname": "Martínez",
+  "dni": 78912345,
+  "hours_worked": 25,
+  "available": true
+}]

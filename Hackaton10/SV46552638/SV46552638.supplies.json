@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "674d3198db7f5b817bc5819b"
+  },
+  "name": "Clavos 1 pulgada",
+  "description": "Clavos pequeños para ensamblar madera",
+  "stock": 6000,
+  "coste": 0.015,
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "674d3198db7f5b817bc5819c"
+  },
+  "name": "Clavos 2 pulgadas",
+  "description": "Clavos medianos para muebles grandes",
+  "stock": 8000,
+  "coste": 0.025,
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "674d3198db7f5b817bc5819d"
+  },
+  "name": "Tornillos autorroscantes",
+  "description": "Tornillos para ensamblaje rápido",
+  "stock": 10000,
+  "coste": 0.05,
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "674d3198db7f5b817bc5819e"
+  },
+  "name": "Tornillos para melamina",
+  "description": "Tornillos especiales para melamina",
+  "stock": 9000,
+  "coste": 0.045,
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "674d3198db7f5b817bc5819f"
+  },
+  "name": "Adhesivo de contacto",
+  "description": "Pegamento resistente para madera y melamina",
+  "stock": 40,
+  "coste": 5,
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "674d3198db7f5b817bc581a0"
+  },
+  "name": "Silicona líquida",
+  "description": "Silicona para acabados",
+  "stock": 150,
+  "coste": 3.5,
+  "available": true
+}]

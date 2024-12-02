@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "674d318cdb7f5b817bc58191"
+  },
+  "name": "Melamina Blanca",
+  "description": "Tableros Hispanos 2.14m X 2.44m x 18 mm",
+  "stock": 145,
+  "coste": 170.5,
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "674d318cdb7f5b817bc58192"
+  },
+  "name": "Melamina Roble",
+  "description": "Tableros Placacentro 2.14m X 2.44m x 18 mm",
+  "stock": 75,
+  "coste": 220,
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "674d318cdb7f5b817bc58193"
+  },
+  "name": "MDF",
+  "description": "Tablero de fibra 1.22m X 2.44m x 3 mm",
+  "stock": 100,
+  "coste": 25,
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "674d318cdb7f5b817bc58194"
+  },
+  "name": "Triplay",
+  "description": "Tablero de madera contrachapada",
+  "stock": 100,
+  "coste": 21.5,
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "674d318cdb7f5b817bc58195"
+  },
+  "name": "Pino",
+  "description": "Madera sólida de pino",
+  "stock": 150,
+  "coste": 270.5,
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "674d318cdb7f5b817bc58196"
+  },
+  "name": "Cedro",
+  "description": "Madera sólida de cedro",
+  "stock": 80,
+  "coste": 350.5,
+  "available": false
+},
+{
+  "_id": {
+    "$oid": "674d318cdb7f5b817bc58197"
+  },
+  "name": "Melamina Gris",
+  "description": "Tableros Hispanos 2.14m X 2.44m x 18 mm",
+  "stock": 120,
+  "coste": 230,
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "674d318cdb7f5b817bc58198"
+  },
+  "name": "Melamina Negra",
+  "description": "Tableros Hispanos 2.14m X 2.44m x 18 mm",
+  "stock": 110,
+  "coste": 180,
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "674d318cdb7f5b817bc58199"
+  },
+  "name": "Roble Oscuro",
+  "description": "Madera sólida de roble oscuro",
+  "stock": 60,
+  "coste": 370.5,
+  "available": false
+},
+{
+  "_id": {
+    "$oid": "674d318cdb7f5b817bc5819a"
+  },
+  "name": "Madera Reciclada",
+  "description": "Madera reutilizada para proyectos sostenibles",
+  "stock": 40,
+  "coste": 0,
+  "available": true
+}]
