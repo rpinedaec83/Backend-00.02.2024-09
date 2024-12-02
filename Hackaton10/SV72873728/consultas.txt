@@ -1,0 +1,68 @@
+use SV72873728;
+
+
+db.MateriaPrima.insertMany([
+    {
+        nombre: "Madera Pino",
+        descripcion: "Madera de alta calidad para armarios",
+        cantidad: 50,
+        proveedor: { nombre: "Proveedora ABC", contacto: "987654321" },
+        fecha_compra: new Date("2024-11-25")
+    },
+    {
+        nombre: "Chapa de Roble",
+        descripcion: "Chapa para recubrimientos",
+        cantidad: 100,
+        proveedor: { nombre: "Proveedora XYZ", contacto: "123456789" },
+        fecha_compra: new Date("2024-11-26")
+    }
+]);
+
+db.Insumos.insertMany([
+    { nombre: "Clavos", tipo: "Fijación", cantidad: 500, fecha_compra: new Date("2024-11-28") },
+    { nombre: "Pegamento", tipo: "Adhesivo", cantidad: 20, fecha_compra: new Date("2024-11-28") }
+]);
+
+db.Personal.insertMany([
+    { nombre: "Juan", apellido: "Pérez", puesto: "Carpintero", fecha_contratacion: new Date("2022-05-10"), estado: "Activo" },
+    { nombre: "María", apellido: "López", puesto: "Supervisor", fecha_contratacion: new Date("2021-09-15"), estado: "Activo" }
+]);
+
+db.Produccion.insertMany([
+    {
+        producto: "Armario Clásico",
+        cantidad: 10,
+        estado: "En proceso",
+        fecha_inicio: new Date("2024-11-20"),
+        fecha_fin: null
+    },
+    {
+        producto: "Armario Moderno",
+        cantidad: 5,
+        estado: "Terminado",
+        fecha_inicio: new Date("2024-10-15"),
+        fecha_fin: new Date("2024-11-15")
+    }
+]);
+
+
+//Obtener todos los registros de la colección MateriaPrima
+db.MateriaPrima.find()
+
+//Obtener todos los documentos de la colección MateriaPrima donde la cantidad sea mayor a 50:
+db.MateriaPrima.find({ cantidad: { $gt: 50 } })
+
+
+//Esta consulta devuelve los documentos de MateriaPrima donde la cantidad sea mayor a 50 o el proveedor sea "Proveedora XYZ"
+db.MateriaPrima.find({
+  $or: [
+    { cantidad: { $gt: 50 } },
+    { "proveedor.nombre": "Proveedora XYZ" }
+  ]
+})
+
+//Devuelve todos los productos cuyo estado es "Terminado"
+db.Produccion.find({ estado: "Terminado" })
+
+//Devuelve todos los documentos de Personal donde el nombre es "Juan"
+db.Personal.find({ nombre: "Juan" })

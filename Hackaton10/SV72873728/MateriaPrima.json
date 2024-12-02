@@ -1,0 +1,2 @@
+{"_id":{"$oid":"674d4cf4c91e7ae8cb8d67a9"},"nombre":"Madera Pino","descripcion":"Madera de alta calidad para armarios","cantidad":50,"proveedor":{"nombre":"Proveedora ABC","contacto":"987654321"},"fecha_compra":{"$date":"2024-11-25T00:00:00Z"}}
+{"_id":{"$oid":"674d4cf4c91e7ae8cb8d67aa"},"nombre":"Chapa de Roble","descripcion":"Chapa para recubrimientos","cantidad":100,"proveedor":{"nombre":"Proveedora XYZ","contacto":"123456789"},"fecha_compra":{"$date":"2024-11-26T00:00:00Z"}}

@@ -1,0 +1,2 @@
+{"_id":{"$oid":"674d4b5f34de4f65f910607f"},"nombre":"Juan","apellido":"Pérez","puesto":"Carpintero","fecha_contratacion":{"$date":"2022-05-10T00:00:00Z"},"estado":"Activo"}
+{"_id":{"$oid":"674d4b5f34de4f65f9106080"},"nombre":"María","apellido":"López","puesto":"Supervisor","fecha_contratacion":{"$date":"2021-09-15T00:00:00Z"},"estado":"Activo"}
