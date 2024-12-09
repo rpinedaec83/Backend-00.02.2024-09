@@ -1,0 +1,147 @@
+[{
+  "_id": {
+    "$oid": "674ba8f5e4f213a8f65c9cd6"
+  },
+  "nombre": "Ana Gómez",
+  "puesto": "Administrativa",
+  "fecha_contratacion": "2022-05-10",
+  "salario": 28000,
+  "contacto": {
+    "telefono": "+51 912 345 678",
+    "email": "ana.gomez@example.com",
+    "direccion": "Calle Falsa 123, Lima, Perú"
+  },
+  "evaluaciones": [
+    {
+      "fecha": "2024-06-30",
+      "resultado": "Bueno",
+      "comentarios": "Buen desempeño general."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674ba8f5e4f213a8f65c9cd7"
+  },
+  "nombre": "Carlos Ruiz",
+  "puesto": "Ingeniero de Producción",
+  "fecha_contratacion": "2021-03-15",
+  "salario": 45000,
+  "contacto": {
+    "telefono": "+51 987 654 321",
+    "email": "carlos.ruiz@example.com",
+    "direccion": "Av. Industrial 456, Lima, Perú"
+  },
+  "evaluaciones": [
+    {
+      "fecha": "2024-06-30",
+      "resultado": "Excelente",
+      "comentarios": "Liderazgo destacado en proyectos."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674ba8f5e4f213a8f65c9cd8"
+  },
+  "nombre": "Lucía Fernández",
+  "puesto": "Operaria",
+  "fecha_contratacion": "2020-08-01",
+  "salario": 25000,
+  "contacto": {
+    "telefono": "+51 923 456 789",
+    "email": "lucia.fernandez@example.com",
+    "direccion": "Jr. Los Olivos 789, Lima, Perú"
+  },
+  "evaluaciones": [
+    {
+      "fecha": "2024-06-30",
+      "resultado": "Muy Bueno",
+      "comentarios": "Alta eficiencia en tareas asignadas."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674ba8f5e4f213a8f65c9cd9"
+  },
+  "nombre": "Miguel Torres",
+  "puesto": "Supervisor",
+  "fecha_contratacion": "2019-11-20",
+  "salario": 38000,
+  "contacto": {
+    "telefono": "+51 934 567 890",
+    "email": "miguel.torres@example.com",
+    "direccion": "Av. Central 321, Lima, Perú"
+  },
+  "evaluaciones": [
+    {
+      "fecha": "2024-06-30",
+      "resultado": "Bueno",
+      "comentarios": "Buen manejo de equipo."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674ba8f5e4f213a8f65c9cda"
+  },
+  "nombre": "Sofía Martínez",
+  "puesto": "Contadora",
+  "fecha_contratacion": "2022-02-10",
+  "salario": 32000,
+  "contacto": {
+    "telefono": "+51 945 678 901",
+    "email": "sofia.martinez@example.com",
+    "direccion": "Calle Comercio 654, Lima, Perú"
+  },
+  "evaluaciones": [
+    {
+      "fecha": "2024-06-30",
+      "resultado": "Muy Bueno",
+      "comentarios": "Precisión en informes financieros."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674ba8f5e4f213a8f65c9cdb"
+  },
+  "nombre": "Pedro Ramírez",
+  "puesto": "Técnico de Mantenimiento",
+  "fecha_contratacion": "2021-07-25",
+  "salario": 29000,
+  "contacto": {
+    "telefono": "+51 956 789 012",
+    "email": "pedro.ramirez@example.com",
+    "direccion": "Jr. Mantenimiento 987, Lima, Perú"
+  },
+  "evaluaciones": [
+    {
+      "fecha": "2024-06-30",
+      "resultado": "Bueno",
+      "comentarios": "Buen desempeño en mantenimiento preventivo."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674baaaae4f213a8f65c9cdc"
+  },
+  "nombre": "Juan De Las Casas",
+  "puesto": "Técnico de Mantenimiento",
+  "fecha_contratacion": "2021-12-01",
+  "salario": 18000,
+  "contacto": {
+    "telefono": "+51 965 547 213",
+    "email": "juan.de.la.casas@example.com",
+    "direccion": "Av. Bolivar 41, Callao, Perú"
+  },
+  "evaluaciones": [
+    {
+      "fecha": "2024-08-30",
+      "resultado": "Regular",
+      "comentarios": "Desempeño en observación, falta de proactividad"
+    }
+  ]
+}]

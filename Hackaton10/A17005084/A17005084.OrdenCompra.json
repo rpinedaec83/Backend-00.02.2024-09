@@ -1,0 +1,138 @@
+[{
+  "_id": {
+    "$oid": "674d26f14352dc7d957c44e5"
+  },
+  "Fecha": {
+    "$date": "2024-12-02T03:18:09.154Z"
+  },
+  "IdProve": {
+    "$oid": "674bb89fe4f213a8f65c9ce7"
+  },
+  "IdCliente": {
+    "$oid": "674bb218e4f213a8f65c9cdd"
+  },
+  "IdPersonal": {
+    "$oid": "674ba8f5e4f213a8f65c9cd6"
+  },
+  "TotPago": {
+    "$numberDecimal": "150.75"
+  },
+  "Articulo": [
+    {
+      "IdArticulo": {
+        "$oid": "674ba320e4f213a8f65c9cce"
+      },
+      "Cantidad": 2,
+      "PrecUnitario": {
+        "$numberDecimal": "25.50"
+      },
+      "SubTotal": {
+        "$numberDecimal": "51.00"
+      }
+    },
+    {
+      "IdArticulo": {
+        "$oid": "674ba320e4f213a8f65c9ccf"
+      },
+      "Cantidad": 1,
+      "PrecUnitario": {
+        "$numberDecimal": "99.75"
+      },
+      "SubTotal": {
+        "$numberDecimal": "99.75"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674d26f14352dc7d957c44e6"
+  },
+  "Fecha": {
+    "$date": "2024-12-02T03:18:09.154Z"
+  },
+  "IdProve": {
+    "$oid": "674bb89fe4f213a8f65c9ceb"
+  },
+  "IdCliente": {
+    "$oid": "674bb218e4f213a8f65c9cde"
+  },
+  "IdPersonal": {
+    "$oid": "674ba8f5e4f213a8f65c9cd8"
+  },
+  "TotPago": {
+    "$numberDecimal": "200.00"
+  },
+  "Articulo": [
+    {
+      "IdArticulo": {
+        "$oid": "674ba320e4f213a8f65c9cd0"
+      },
+      "Cantidad": 3,
+      "PrecUnitario": {
+        "$numberDecimal": "50.00"
+      },
+      "SubTotal": {
+        "$numberDecimal": "150.00"
+      }
+    },
+    {
+      "IdArticulo": {
+        "$oid": "674ba320e4f213a8f65c9cd1"
+      },
+      "Cantidad": 2,
+      "PrecUnitario": {
+        "$numberDecimal": "25.00"
+      },
+      "SubTotal": {
+        "$numberDecimal": "50.00"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674d26f14352dc7d957c44e7"
+  },
+  "Fecha": {
+    "$date": "2024-12-02T03:18:09.154Z"
+  },
+  "IdProve": {
+    "$oid": "674bb89fe4f213a8f65c9ce7"
+  },
+  "IdCliente": {
+    "$oid": "674bb218e4f213a8f65c9cdf"
+  },
+  "IdPersonal": {
+    "$oid": "674ba8f5e4f213a8f65c9cdb"
+  },
+  "TotPago": {
+    "$numberDecimal": "300.50"
+  },
+  "Articulo": [
+    {
+      "IdArticulo": {
+        "$oid": "674ba320e4f213a8f65c9cd2"
+      },
+      "Cantidad": 5,
+      "PrecUnitario": {
+        "$numberDecimal": "30.10"
+      },
+      "SubTotal": {
+        "$numberDecimal": "150.50"
+      }
+    },
+    {
+      "IdArticulo": {
+        "$oid": "674ba320e4f213a8f65c9cd3"
+      },
+      "Cantidad": 4,
+      "PrecUnitario": {
+        "$numberDecimal": "20.00"
+      },
+      "SubTotal": {
+        "$numberDecimal": "80.00"
+      }
+    }
+  ]
+}]

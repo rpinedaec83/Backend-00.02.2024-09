@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "674bb218e4f213a8f65c9cdd"
+  },
+  "TipDoc": "DNI",
+  "NroDoc": "45127896",
+  "NombClie": "Esteban",
+  "ApeClie": "Meza Perez",
+  "Tipo": "Individual",
+  "DirecClie": "Av. Imperial 45 piso 3",
+  "Contacto": {
+    "NomContacto": "Maria Lopez",
+    "Telefono": "985362145",
+    "email": "mari.lopez@gmail.com"
+  }
+},
+{
+  "_id": {
+    "$oid": "674bb218e4f213a8f65c9cde"
+  },
+  "TipDoc": "RUC",
+  "NroDoc": "10256345781",
+  "NombClie": "Exportaciones San Tadeo SAC",
+  "ApeClie": "",
+  "Tipo": "Coorporativo",
+  "DirecClie": "Jr. Manrique Juarez Mz 14 Lt 35",
+  "Contacto": {
+    "NomContacto": "Pilar Maria Tevez",
+    "Telefono": "951478231",
+    "email": "pilar.maria.tevez@SanTadeo.com"
+  }
+},
+{
+  "_id": {
+    "$oid": "674bb218e4f213a8f65c9cdf"
+  },
+  "TipDoc": "RUC",
+  "NroDoc": "20512365891",
+  "NombClie": "Comercial Las Morales EIRL",
+  "ApeClie": "",
+  "Tipo": "Coorporativo",
+  "DirecClie": "Av. Miguel Grau - CC. Polvos Azules Pst 45",
+  "Contacto": {
+    "NomContacto": "Matias Katrina Mercado",
+    "Telefono": "958632142",
+    "email": "Matias.Katri@Morales.com"
+  }
+},
+{
+  "_id": {
+    "$oid": "674bb218e4f213a8f65c9ce0"
+  },
+  "TipDoc": "DNI",
+  "NroDoc": "75849632",
+  "NombClie": "Daniela",
+  "ApeClie": "Moran Mejia",
+  "Tipo": "Individual",
+  "DirecClie": "Av. Velasco 125",
+  "Contacto": {
+    "NomContacto": "Daniela Moran",
+    "Telefono": "965741283",
+    "email": "Daniela.Moran@gmail.com"
+  }
+}]
