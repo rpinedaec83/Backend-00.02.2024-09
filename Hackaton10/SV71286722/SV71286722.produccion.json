@@ -1,0 +1,86 @@
+[{
+  "_id": "pr001",
+  "fecha": {
+    "$date": "2024-12-01T00:00:00.000Z"
+  },
+  "producto": "Armario 2 puertas",
+  "cantidad_producida": 10,
+  "materia_prima_usada": [
+    "mp001",
+    "mp003"
+  ],
+  "insumos_usados": [
+    "i002",
+    "i003",
+    "i005"
+  ],
+  "responsable": "p001"
+},
+{
+  "_id": "pr002",
+  "fecha": {
+    "$date": "2024-12-08T22:03:51.273Z"
+  },
+  "producto": "Armario 3 puertas",
+  "cantidad_producida": 8,
+  "materia_prima_usada": [
+    "mp002",
+    "mp003"
+  ],
+  "insumos_usados": [
+    "i002",
+    "i003"
+  ],
+  "responsable": "p002"
+},
+{
+  "_id": "pr003",
+  "fecha": {
+    "$date": "2024-12-03T00:00:00.000Z"
+  },
+  "producto": "Cajonera pequeña",
+  "cantidad_producida": 15,
+  "materia_prima_usada": [
+    "mp001",
+    "mp004"
+  ],
+  "insumos_usados": [
+    "i001",
+    "i005"
+  ],
+  "responsable": "p003"
+},
+{
+  "_id": "pr004",
+  "fecha": {
+    "$date": "2024-12-08T22:03:51.273Z"
+  },
+  "producto": "Mesa auxiliar",
+  "cantidad_producida": 20,
+  "materia_prima_usada": [
+    "mp002",
+    "mp004"
+  ],
+  "insumos_usados": [
+    "i001",
+    "i004"
+  ],
+  "responsable": "p004"
+},
+{
+  "_id": "pr005",
+  "fecha": {
+    "$date": "2024-12-05T00:00:00.000Z"
+  },
+  "producto": "Estantería modular",
+  "cantidad_producida": 12,
+  "materia_prima_usada": [
+    "mp003",
+    "mp005"
+  ],
+  "insumos_usados": [
+    "i002",
+    "i005"
+  ],
+  "responsable": "p005"
+}]

@@ -1,0 +1,228 @@
+use SV71286722
+
+db.materias_primas.insertMany([
+  {
+    "_id": "mp001",
+    "nombre": "Madera Roble",
+    "proveedor": "Bosques del Norte",
+    "costo": 250,
+    "unidad": "m³",
+    "stock_actual": 120
+  },
+  {
+    "_id": "mp002",
+    "nombre": "Madera Pino",
+    "proveedor": "Forestal Andes",
+    "costo": 150,
+    "unidad": "m³",
+    "stock_actual": 300
+  },
+  {
+    "_id": "mp003",
+    "nombre": "Chapa de Nogal",
+    "proveedor": "Chapas Elite",
+    "costo": 50,
+    "unidad": "m²",
+    "stock_actual": 500
+  },
+  {
+    "_id": "mp004",
+    "nombre": "Pegamento Industrial",
+    "proveedor": "Químicos SRL",
+    "costo": 20,
+    "unidad": "litros",
+    "stock_actual": 200
+  },
+  {
+    "_id": "mp005",
+    "nombre": "Laca Protectora",
+    "proveedor": "Barnices y Lacados",
+    "costo": 30,
+    "unidad": "litros",
+    "stock_actual": 100
+  }
+])
+
+
+db.insumos.insertMany([
+  {
+    "_id": "i001",
+    "nombre": "Tornillos 5mm",
+    "proveedor": "Fijaciones Expertas",
+    "costo": 5,
+    "unidad": "caja",
+    "stock_actual": 50
+  },
+  {
+    "_id": "i002",
+    "nombre": "Bisagras Acero",
+    "proveedor": "Herrería Técnica",
+    "costo": 15,
+    "unidad": "unidad",
+    "stock_actual": 200
+  },
+  {
+    "_id": "i003",
+    "nombre": "Manijas de Latón",
+    "proveedor": "Accesorios Premium",
+    "costo": 10,
+    "unidad": "unidad",
+    "stock_actual": 150
+  },
+  {
+    "_id": "i004",
+    "nombre": "Clavos 3 pulgadas",
+    "proveedor": "Fijaciones Expertas",
+    "costo": 3,
+    "unidad": "caja",
+    "stock_actual": 80
+  },
+  {
+    "_id": "i005",
+    "nombre": "Lijas Grano Fino",
+    "proveedor": "Abrasivos Pro",
+    "costo": 8,
+    "unidad": "paquete",
+    "stock_actual": 120
+  }
+])
+
+db.personal.insertMany([
+  {
+    "_id": "p001",
+    "nombre": "Carlos López",
+    "cargo": "Carpintero",
+    "turno": "Mañana",
+    "salario": 800
+  },
+  {
+    "_id": "p002",
+    "nombre": "Ana Martínez",
+    "cargo": "Supervisora de Producción",
+    "turno": "Tarde",
+    "salario": 1200
+  },
+  {
+    "_id": "p003",
+    "nombre": "Jorge Pérez",
+    "cargo": "Operador de Máquinas",
+    "turno": "Noche",
+    "salario": 950
+  },
+  {
+    "_id": "p004",
+    "nombre": "Lucía Gómez",
+    "cargo": "Diseñadora",
+    "turno": "Mañana",
+    "salario": 1100
+  },
+  {
+    "_id": "p005",
+    "nombre": "Miguel Ramírez",
+    "cargo": "Ayudante General",
+    "turno": "Tarde",
+    "salario": 700
+  }
+])
+
+db.produccion.insertMany([
+  {
+    "_id": "pr001",
+    "fecha": new Date("2024-12-01"),
+    "producto": "Armario 2 puertas",
+    "cantidad_producida": 10,
+    "materia_prima_usada": ["mp001", "mp003"],
+    "insumos_usados": ["i002", "i003", "i005"],
+    "responsable": "p001"
+  },
+  {
+    _id: "pr002",
+    fecha: new Date(),
+    producto: "Armario 3 puertas",
+    cantidad_producida: 8,
+    materia_prima_usada: ["mp002", "mp003"],
+    insumos_usados: ["i002", "i003"],
+    responsable: "p002"
+  },
+  {
+    "_id": "pr003",
+    "fecha": new Date("2024-12-03"),
+    "producto": "Cajonera pequeña",
+    "cantidad_producida": 15,
+    "materia_prima_usada": ["mp001", "mp004"],
+    "insumos_usados": ["i001", "i005"],
+    "responsable": "p003"
+  },
+  {
+    _id: "pr004",
+    fecha: new Date(),
+    producto: "Mesa auxiliar",
+    cantidad_producida: 20,
+    materia_prima_usada: ["mp002", "mp004"],
+    insumos_usados: ["i001", "i004"],
+    responsable: "p004"
+  },
+  {
+    "_id": "pr005",
+    "fecha": new Date("2024-12-05"),
+    "producto": "Estantería modular",
+    "cantidad_producida": 12,
+    "materia_prima_usada": ["mp003", "mp005"],
+    "insumos_usados": ["i002", "i005"],
+    "responsable": "p005"
+  }
+])
+
+
+---------------------------------------------------------------------------------------
+//CONSULTAS PARA LA PRIMERA PRODUCCIÓN
+// Materias Primas
+db.materias_primas.updateOne(
+  { _id: "mp001" },
+  { $inc: { stock_actual: -10 } } // Disminuir 10 unidades de Madera Roble
+);
+
+db.materias_primas.updateOne(
+  { _id: "mp003" },
+  { $inc: { stock_actual: -20 } } // Disminuir 20 unidades de Chapa de Nogal
+);
+
+// Insumos
+db.insumos.updateOne(
+  { _id: "i002" },
+  { $inc: { stock_actual: -10 } } // Disminuir 10 unidades de Bisagras
+);
+
+db.insumos.updateOne(
+  { _id: "i003" },
+  { $inc: { stock_actual: -10 } } // Disminuir 10 unidades de Manijas
+);
+
+db.insumos.updateOne(
+  { _id: "i005" },
+  { $inc: { stock_actual: -5 } } // Disminuir 5 paquetes de Lijas
+);
+
+---------------------------------------------------------------------------------------
+//CONSULTAS PARA LA SEGUNDA PRODUCCIÓN
+// Materias Primas
+db.materias_primas.updateOne(
+  { _id: "mp002" },
+  { $inc: { stock_actual: -15 } } // Disminuir 15 unidades de Madera Pino
+);
+
+db.materias_primas.updateOne(
+  { _id: "mp003" },
+  { $inc: { stock_actual: -30 } } // Disminuir 30 unidades de Chapa de Nogal
+);
+
+// Insumos
+db.insumos.updateOne(
+  { _id: "i002" },
+  { $inc: { stock_actual: -12 } } // Disminuir 12 unidades de Bisagras
+);
+
+db.insumos.updateOne(
+  { _id: "i003" },
+  { $inc: { stock_actual: -12 } } // Disminuir 12 unidades de Manijas
+);

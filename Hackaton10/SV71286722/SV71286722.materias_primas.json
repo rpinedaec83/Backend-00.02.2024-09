@@ -1,0 +1,40 @@
+[{
+  "_id": "mp001",
+  "nombre": "Madera Roble",
+  "proveedor": "Bosques del Norte",
+  "costo": 250,
+  "unidad": "m³",
+  "stock_actual": 120
+},
+{
+  "_id": "mp002",
+  "nombre": "Madera Pino",
+  "proveedor": "Forestal Andes",
+  "costo": 150,
+  "unidad": "m³",
+  "stock_actual": 300
+},
+{
+  "_id": "mp003",
+  "nombre": "Chapa de Nogal",
+  "proveedor": "Chapas Elite",
+  "costo": 50,
+  "unidad": "m²",
+  "stock_actual": 500
+},
+{
+  "_id": "mp004",
+  "nombre": "Pegamento Industrial",
+  "proveedor": "Químicos SRL",
+  "costo": 20,
+  "unidad": "litros",
+  "stock_actual": 200
+},
+{
+  "_id": "mp005",
+  "nombre": "Laca Protectora",
+  "proveedor": "Barnices y Lacados",
+  "costo": 30,
+  "unidad": "litros",
+  "stock_actual": 100
+}]

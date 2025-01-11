@@ -1,0 +1,40 @@
+[{
+  "_id": "i001",
+  "nombre": "Tornillos 5mm",
+  "proveedor": "Fijaciones Expertas",
+  "costo": 5,
+  "unidad": "caja",
+  "stock_actual": 50
+},
+{
+  "_id": "i002",
+  "nombre": "Bisagras Acero",
+  "proveedor": "Herrería Técnica",
+  "costo": 15,
+  "unidad": "unidad",
+  "stock_actual": 178
+},
+{
+  "_id": "i003",
+  "nombre": "Manijas de Latón",
+  "proveedor": "Accesorios Premium",
+  "costo": 10,
+  "unidad": "unidad",
+  "stock_actual": 128
+},
+{
+  "_id": "i004",
+  "nombre": "Clavos 3 pulgadas",
+  "proveedor": "Fijaciones Expertas",
+  "costo": 3,
+  "unidad": "caja",
+  "stock_actual": 80
+},
+{
+  "_id": "i005",
+  "nombre": "Lijas Grano Fino",
+  "proveedor": "Abrasivos Pro",
+  "costo": 8,
+  "unidad": "paquete",
+  "stock_actual": 115
+}]

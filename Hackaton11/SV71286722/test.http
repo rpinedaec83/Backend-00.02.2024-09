@@ -1,0 +1,65 @@
+### Obtener Clientes
+GET http://localhost:3000/clientes
+
+### Crear Cliente
+POST http://localhost:3000/clientes
+Content-Type: application/json
+
+
+{
+    "dni" : "71286722",
+    "nombres" : "Jose",
+    "apellidos" : "Huamani",
+    "telefono": "99999999999",
+    "email": "capibara@gmail.com",
+    "direccion": "Los olivos",
+    "activo": true
+}
+
+### Otro Cliente
+POST http://localhost:3000/clientes
+Content-Type: application/json
+
+{
+    "dni" : "71286723",
+    "nombres" : "Diana",
+    "apellidos" : "Huamani",
+    "telefono": "99999999999",
+    "email": "capibaraa@gmail.com",
+    "direccion": "Los olivos",
+    "activo": true
+}
+
+### Borrar Cliente por DNI
+DELETE  http://localhost:3000/clientes/71286722
+
+### Obtener Clientes por DNI
+GET http://localhost:3000/clientes/71286723
+
+### Actualizar Cliente por DNI
+PUT http://localhost:3000/clientes/71286723
+Content-Type: application/json
+
+{
+    "dni" : "71286723",
+    "nombres" : "Diana",
+    "apellidos" : "Huamani",
+    "telefono": "888888888888",
+    "email": "capibaraa@gmail.com",
+    "direccion": "Los olivos",
+    "activo": true
+}
+
+### Actualizar Cliente por DNI
+PUT http://localhost:3000/clientes/71286722
+Content-Type: application/json
+
+{
+    "dni" : "71286722",
+    "nombres" : "Fabian",
+    "apellidos" : "Zegarra",
+    "telefono": "7777777777",
+    "email": "capibarar@gmail.com",
+    "direccion": "Los olivos",
+    "activo": true
+}

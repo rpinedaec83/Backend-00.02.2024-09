@@ -1,0 +1,2 @@
+{"_id":{"$oid":"674d4b4434de4f65f910607d"},"nombre":"Clavos","tipo":"Fijación","cantidad":500,"fecha_compra":{"$date":"2024-11-28T00:00:00Z"}}
+{"_id":{"$oid":"674d4b4434de4f65f910607e"},"nombre":"Madera","tipo":"Materia<Construcción","cantidad":20,"fecha_compra":{"$date":"2024-11-28T00:00:00Z"}}

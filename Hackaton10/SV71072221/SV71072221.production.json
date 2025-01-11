@@ -1,0 +1,2 @@
+{"_id":{"$oid":"674d4b9434de4f65f9106081"},"producto":"Armario Clásico","cantidad":10,"estado":"En proceso","fecha_inicio":{"$date":"2024-11-20T00:00:00Z"},"fecha_fin":null}
+{"_id":{"$oid":"674d4b9434de4f65f9106082"},"producto":"Armario Moderno","cantidad":5,"estado":"Terminado","fecha_inicio":{"$date":"2024-10-15T00:00:00Z"},"fecha_fin":{"$date":"2024-11-15T00:00:00Z"}}

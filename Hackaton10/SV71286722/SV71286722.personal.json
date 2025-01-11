@@ -1,0 +1,35 @@
+[{
+  "_id": "p001",
+  "nombre": "Carlos López",
+  "cargo": "Carpintero",
+  "turno": "Mañana",
+  "salario": 800
+},
+{
+  "_id": "p002",
+  "nombre": "Ana Martínez",
+  "cargo": "Supervisora de Producción",
+  "turno": "Tarde",
+  "salario": 1200
+},
+{
+  "_id": "p003",
+  "nombre": "Jorge Pérez",
+  "cargo": "Operador de Máquinas",
+  "turno": "Noche",
+  "salario": 950
+},
+{
+  "_id": "p004",
+  "nombre": "Lucía Gómez",
+  "cargo": "Diseñadora",
+  "turno": "Mañana",
+  "salario": 1100
+},
+{
+  "_id": "p005",
+  "nombre": "Miguel Ramírez",
+  "cargo": "Ayudante General",
+  "turno": "Tarde",
+  "salario": 700
+}]

@@ -1,9 +1,10 @@
 {
-  "name": "parteuno",
+  "name": "sv71286722",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev":"nodemon index.js",
+    "dev": "node --watch src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,6 +12,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "nodemon": "^3.1.9"
+    "express": "4.21.2"
   }
 }
