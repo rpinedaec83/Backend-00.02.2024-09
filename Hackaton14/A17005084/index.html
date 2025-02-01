@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Chat Moderno</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/estilos.css">
+</head>
+
+<body>
+    <div class="chat-container">
+        <div class="chat-header">Chat Moderno</div>
+        <div class="chat-messages" id="messages">
+            <!-- Los mensajes aparecerán aquí -->
+        </div>
+        <div class="message-input">
+            <input id="input" type="text" placeholder="Escribe tu mensaje..." autocomplete="off" />
+
+            <button id="sendButton">Enviar</button>
+            <script src="/socket.io/socket.io.js"></script>
+
+            <script>
+                const socket = io();
+                function generateRandomUsername() {
+                    const adjectives = ["Fast", "Cool", "Smart", "Funny", "Brave"];
+                    const nouns = ["Lion", "Eagle", "Shark", "Tiger", "Wolf"];
+                    const randomNumber = Math.floor(Math.random() * 1000);
+
+                    const randomAdjective = adjectives[Math.floor(Math.random() * adjectives.length)];
+                    const randomNoun = nouns[Math.floor(Math.random() * nouns.length)];
+
+                    return `${randomAdjective}${randomNoun}${randomNumber}`;
+                }
+                const input = document.getElementById('input');
+                const messages = document.getElementById('messages');
+                const sendButton = document.getElementById('sendButton');
+
+                const username = generateRandomUsername()
+
+
+
+
+                function addMessageToUI(data, isUserMessage) {
+                    const messageElement = document.createElement('div');
+                    messageElement.classList.add('message');
+                    if (isUserMessage) {
+                        messageElement.classList.add('user-message')
+                    }
+                    const avatar = document.createElement('div');
+                    avatar.classList.add('avatar');
+                    avatar.textContent = data.username.charAt(0).toUpperCase();
+                    const messageContent = document.createElement('div');
+                    messageContent.classList.add('message-content');
+                    const messageText = document.createElement('p');
+                    messageText.innerHTML = `<strong>${data.username}:</strong> ${data.message}`;
+
+                    messageContent.appendChild(messageText);
+                    messageElement.appendChild(avatar);
+                    messageElement.appendChild(messageContent);
+
+                    messages.appendChild(messageElement);
+                    messages.prepend(messageElement); // Agrega el mensaje al principio de la lista
+
+                    // Desplaza hacia abajo para ver el nuevo mensaje
+                    messages.scrollTop = messages.scrollHeight;
+                }
+
+                sendButton.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    if (input.value) {
+                        socket.emit('chat message', {
+                            username: username,
+                            message: input.value
+                        })
+                        addMessageToUI({ username, message: input.value }, true)
+                        input.value = ''
+                    }
+                })
+                socket.on("response message", (data) => {
+                    if (data.role != username) {
+                        addMessageToUI(data, false)
+                    }
+                })
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+PORT = 4080
+BERT_API = 
+DB_NAME = ChatsGoogle
+DB_USER = postgres
+DB_PASSWORD = 
+DB_HOST = localhost
+DB_PORT = 5432
